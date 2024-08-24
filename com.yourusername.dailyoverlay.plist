@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.helenemartin.dailyoverlay</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/opt/anaconda3/bin/python3</string>
+      <string>/Users/helenemartin/DailyBookOverlay/daily_overlay.py</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>9</integer> <!-- Set the hour you want the script to run -->
+      <key>Minute</key>
+      <integer>0</integer> <!-- Set the minute you want the script to run -->
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <false/>
+  </dict>
+</plist>
