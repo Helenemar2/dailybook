@@ -3,12 +3,12 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.helenemartin.dailyoverlay</string>
+    <string>com.username.dailyoverlay</string>
 
     <key>ProgramArguments</key>
     <array>
-      <string>/opt/anaconda3/bin/python3</string>
-      <string>/Users/helenemartin/DailyBookOverlay/daily_overlay.py</string>
+      <string>/opt/anaconda3/bin/python3</string> <!-- Path to your python3 executable -->
+      <string>/Users/username/DailyBookOverlay/daily_overlay.py</string> <!-- Path to your python script -->
     </array>
 
     <key>StartCalendarInterval</key>
